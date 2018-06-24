@@ -13,7 +13,7 @@ class Element extends React.Component {
     // console.log("render element", this.props)
     return (
       <div className={"li"}>
-        <Links links={this.props.links} search={this.props.search}/>
+        <Links links={this.props.links} search={encodeURI(this.props.name + " " + this.props.search)}/>
         <div className="elementName"><strong>{this.props.name}</strong> {this.props.search}</div>
       </div>
     );
