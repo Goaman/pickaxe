@@ -1,0 +1,38 @@
+{
+  "name": "goa-pickaxe",
+  "version": "0.0.1",
+  "description": "Web squeleton with react, redux, rxjs",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "wach": "webpack --watch",
+    "start": "webpack-dev-server",
+    "deploy": "webpack --mode=production --config=webpack.production.js;firebase deploy"
+  },
+  "author": "Nicolas Bayet",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.11",
+    "file-loader": "^1.1.11",
+    "html-webpack-plugin": "^3.2.0",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "react-hot-loader": "^4.3.0",
+    "redux": "^4.0.0",
+    "style-loader": "^0.21.0",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2",
+    "webpack": "^4.11.1",
+    "webpack-cli": "^3.0.2"
+  },
+  "dependencies": {
+    "clean-webpack-plugin": "^0.1.19",
+    "webpack-dev-server": "^3.1.4"
+  }
+}

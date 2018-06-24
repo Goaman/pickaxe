@@ -1,0 +1,13 @@
+node_modules/
+tmp/
+*.log
+.DS_Store
+.DS_Store?
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.idea/
+dist/
+
+
