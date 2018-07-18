@@ -55,8 +55,8 @@ class App extends React.Component {
 
   render() {
     return (
-      <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
       <div class="app">
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet" />
         <Header onSearch={this.onSearch}></Header>
         <ElementList elements={this.state.elements} links={this.state.links} search={this.state.search} />
       </div>
