@@ -1,5 +1,5 @@
 import './layout/styles.styl';
-import App from './layout/App'
+import App from './layout/app'
 const React = require("react");
 const ReactDom = require("react-dom");
 
