@@ -11,7 +11,7 @@ class Header extends React.Component {
 
   render() {
     return <div className={"header"}>
-      <div className="logo">Pickhaxe</div>
+      <div className="logo">Pickaxe</div>
       <div className={"header-wrapper"}>
         <input type={"text"} onKeyUp={this.props.onSearch} placeholder={"Search" } />
       </div>

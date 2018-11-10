@@ -1,4 +1,4 @@
-# Goa pickhaxe
+# Goa pickaxe
 Quickly dig into the web by generating links for google, pinterest and youtube.
 
 ## Why this project?
